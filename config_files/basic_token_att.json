@@ -1,0 +1,13 @@
+{
+    "Token": {
+        "status": "queued",
+        "variables": {
+            "_attachments": {
+            "$ATTACHMENT_1":"attachment1.txt",
+            "$IMAGE_ATTACHMENT":"image.png"
+            },
+            "_token_keys": {
+            }
+        }
+    }
+}

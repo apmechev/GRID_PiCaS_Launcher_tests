@@ -1,0 +1,33 @@
+{
+    "Token": {
+        "status": "queued",
+        "variables": {
+            "_attachments": {                
+            },
+            "_token_keys": {
+            }
+        }
+    }, 
+    "sandbox": {
+        "git": {
+            "branch": "master",
+            "url": "https://github.com/apmechev/GRID_Sandbox.git"
+        }, 
+        "scripts":[
+            "prefactor": {
+                "branch": "master",
+                "checkout_dir": "prefactor_custom_dir",
+                "url": "https://github.com/lofar-astron/prefactor.git"
+            }, 
+        "test1":{
+                "commit":"5539fd6",
+                "checkout_dir": "random_test_1",
+                "url": "https://github.com/apmechev/GRID_PiCaS_Launcher_tests.git"
+        }, 
+        "test2":{
+            "branch":"RMextract",
+            "url": "https://github.com/apmechev/prefactor.git"
+        }
+        ]
+    }
+}

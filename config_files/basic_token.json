@@ -1,0 +1,15 @@
+{
+    "Token": {
+        "status": "queued",
+        "KEY1":"value1",
+        "Just_a_random_token_key":"value2",
+        "variables": {
+            "_attachments": {
+            },
+            "_token_keys": {
+                "$KEY1": "KEY1",
+                "$KEY2": "Just_a_random_token_key"
+            }
+        }
+    }
+}
